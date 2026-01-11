@@ -1,0 +1,59 @@
+// configurations.create("default")
+// artifacts.add("default", file('mobilertc.aar'))
+
+// Define the dependencies list
+ext {
+    sdkDependenciesList = [
+        "androidx.security:security-crypto:1.1.0-alpha05",
+        "com.google.crypto.tink:tink-android:1.7.0",
+        "com.google.android.exoplayer:exoplayer-core:2.17.1",
+        "com.google.android.exoplayer:exoplayer-ui:2.17.1",
+        "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.constraintlayout:constraintlayout:2.1.0",
+        "com.google.android.material:material:1.11.0",
+        "androidx.multidex:multidex:2.0.1",
+        "com.google.code.gson:gson:2.11.0",
+        "com.github.bumptech.glide:annotations:4.11.0",
+        "com.github.bumptech.glide:glide:4.11.0",
+        "androidx.recyclerview:recyclerview:1.2.1",
+        "com.airbnb.android:lottie:4.0.0",
+        "androidx.window:window:1.1.0",
+        "androidx.window:window-java:1.1.0",
+        "org.jetbrains.kotlin:kotlin-stdlib:1.7.20",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2",
+        "androidx.core:core-ktx:1.8.0",
+        "androidx.core:core:1.13.0",
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2",
+        "androidx.lifecycle:lifecycle-runtime-ktx:2.6.2",
+        "androidx.lifecycle:lifecycle-service:2.6.2",
+        "androidx.work:work-runtime:2.9.0",
+        "androidx.fragment:fragment-ktx:1.4.1",
+        "com.davemorrissey.labs:subsampling-scale-image-view:3.10.0",
+        "androidx.core:core-splashscreen:1.0.1",
+        "androidx.lifecycle:lifecycle-livedata-ktx:2.6.2",
+        "io.reactivex.rxjava3:rxandroid:3.0.2",
+        "androidx.compose.material3:material3:1.2.1",
+        "androidx.compose.material3:material3-window-size-class:1.2.1",
+        "androidx.compose.ui:ui-tooling-preview:1.6.0",
+        "androidx.constraintlayout:constraintlayout-compose:1.0.1",
+        "androidx.activity:activity-compose:1.6.1",
+        "androidx.lifecycle:lifecycle-runtime-compose:2.6.2",
+        "androidx.navigation:navigation-compose:2.7.7",
+        "io.coil-kt:coil-compose:2.3.0",
+        "androidx.webkit:webkit:1.9.0",
+        "org.jetbrains:annotations:23.0.0",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.7.1",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-swing:1.7.1",
+        "androidx.camera:camera-core:1.4.1",
+        "androidx.camera:camera-camera2:1.4.1",
+        "androidx.camera:camera-lifecycle:1.4.1",
+        "androidx.camera:camera-view:1.4.1",
+        "com.google.mlkit:text-recognition:16.0.1",
+        "com.blueparrott:blueparrottsdk:4.8.2"
+    ]
+}
+
+// Dependencies are added in the parent build.gradle

@@ -1,0 +1,2 @@
+android/app/libs/mobilertc.aar filter=lfs diff=lfs merge=lfs -text
+packages/flutter_zoom_meeting_sdk/android/libs/mobilertc.aar filter=lfs diff=lfs merge=lfs -text
